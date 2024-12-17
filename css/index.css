@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Roboto", serif;
+}
+
+#contenedor-tarjetas {
+    display: block;
+}
+
+#tarjeta-uno, #tarjeta-dos {
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#tarjeta-uno {
+    background-color: #1E3932;
+}
+
+#tarjeta-dos {
+    background-color: #dc3545;
+}
+
+#tarjeta-uno .contenedor-imagen, #tarjeta-dos .contenedor-imagen {
+    width: 50%;
+}
+
+#tarjeta-uno .contenedor-imagen .imagen-starbucks,
+#tarjeta-dos .contenedor-imagen .imagen-starbucks {
+    max-width: 100%;
+}
+
+.contenedor-texto {
+    color: white;
+    text-align: center;
+    width: 40%;
+    font-family: "Catamaran", sans-serif;
+}
+
+.contenedor-texto h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-align: center; /* Centrar el título */
+}
+
+.contenedor-texto span {
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contenedor-texto p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.texto {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
